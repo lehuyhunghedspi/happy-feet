@@ -1,0 +1,83 @@
+#div_check{
+	
+	margin:10px;
+	float:left;
+	padding:5px;
+	padding-left:10px;
+	
+	padding-right:10px;
+	color:white;
+	background-color:#3498DB;
+	border-radius: 15px;
+	-moz-border-radius: 15px; /*Firefox*/
+-webkit-border-radius: 15px;  /*Chrome và Safary*/
+}
+
+
+#hienthi_tensanpham{
+	margin-top:20px;
+	margin-left:10px;
+}
+#hienthi_idsanpham{
+	margin-left:10px;
+}
+#hienthi_giasanpham{
+	margin-left:10px;
+}
+
+#hienthi_ngaybansanpham{
+	margin-left:10px;
+}
+#hienthi_anhsanpham{
+	margin-left:10px;
+	margin-bottom:20px;
+}
+.phanmau{
+	margin:20px
+}
+.tenmaudaco{
+	margin:5px
+}
+.buttonchonanh{
+	border:white;
+	padding-left:10px;
+	background-color:#EC7063;
+	border-radius: 15px;
+	-moz-border-radius: 15px; /*Firefox*/
+	-webkit-border-radius: 15px;  /*Chrome và Safary*/
+}
+.tenanh{
+	padding-left:10px;
+	padding-right:10px;
+}
+.btnthemmau{
+	border:white;
+	background-color:#EC7063;
+	width:100px;
+	border-radius: 15px;
+	-moz-border-radius: 15px; /*Firefox*/
+	-webkit-border-radius: 15px;  /*Chrome và Safary*/
+}
+.btnuploadsanpham{
+	border:white;
+	background-color:#C0392B;
+	margin-top:50px;
+	width:200px;
+	border-radius: 15px;
+	-moz-border-radius: 15px; /*Firefox*/
+	-webkit-border-radius: 15px;  /*Chrome và Safary*/
+}
+.themsize{	
+	border:white;
+	background-color:#F5CBA7;
+	width:100px;
+	border-radius: 15px;
+	-moz-border-radius: 15px; /*Firefox*/
+	-webkit-border-radius: 15px;  /*Chrome và Safary*/
+}
+#textchuaidsanpham{
+	margin:10px;
+}
+#idsanpham{
+	margin:10px;
+}

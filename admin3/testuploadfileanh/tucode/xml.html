@@ -1,0 +1,17 @@
+<html>
+<body><div id="demo"><h2>Hay de AJAX giup ban thay doi phan text nay</h2></div><div id="demo2"><h2></h2></div><button type="button" onclick="loadDoc()">Click vao day</button><script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+   document.getElementById("demo2").innerHTML=document.getElementById("demo2").innerHTML+xhttp.readyState;
+  xhttp.onreadystatechange = function() {
+  document.getElementById("demo2").innerHTML=document.getElementById("demo2").innerHTML+xhttp.readyState;
+ 
+    if (xhttp.readyState == 4 && xhttp.status == 200) {
+      document.getElementById("demo").innerHTML = xhttp.responseText;
+    }
+  };
+  xhttp.open("GET", "ajax_info.txt", true);
+  xhttp.send();
+}
+</script></body>
+</html>

@@ -1,0 +1,60 @@
+.ddsmoothmenu{
+font: bold 12px Verdana;
+background: #D35400; /*background of menu bar (default state)*/
+width: 100%;
+display: none;
+}
+.hinhminhhoa{
+	
+	width:100px;
+	float:left;
+	padding-right:1px;padding-left:1px;
+}
+.chuahinhminhhoa{
+	border: 0px solid #283747;
+	padding-top:5px;padding-bottom:5px;padding-right:5px;padding-left:5px;
+}
+#banghangbanhet tr{
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+	 text-align: center;
+	
+}
+#banghangbanhet tr:hover{
+	background-color: #F5EEF8;
+}
+#banghangbanhet th{
+	background-color: #D35400;
+	color:#FDFEFE;
+}
+#banghangbanhet td{
+	 border: 1px solid #ddd;
+}
+#dongheadercuabang{
+	
+}
+.cacdongchuasanpham{
+	  padding:10px;
+	
+}
+.idsanpham{
+	width:40px;
+	 border: 1px solid #ddd;
+	padding:5px;
+	text-align: center;
+}
+.tensanpham{
+	padding-top:0px;padding-bottom:0px;padding-right:15px;padding-left:15px;
+	text-align: center;
+}
+.gia{
+	width:80px;
+	padding-top:0px;padding-bottom:0px;padding-right:15px;padding-left:15px;
+}
+.ngayban{
+	padding-top:0px;padding-bottom:0px;padding-right:15px;padding-left:15px;
+}
+body{
+	
+	background-color:#EAECEE;
+}
